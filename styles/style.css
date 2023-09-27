@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&family=Lato&family=Open+Sans:ital,wght@0,400;1,300&family=Palanquin:wght@300&family=Raleway&family=Roboto+Slab:wght@300&family=Work+Sans:wght@300;400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.header-section {
+    position: fixed;
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0 15px;
+    width: 100%;
+    border-bottom: 1px solid lightslategray;
+}
+
+.menu-container {}
+
+.menu-container a {
+    font-weight: 700;
+    padding: 15px 30px;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    
+}
+
+.nav-container a:last-child {
+    padding-right: 0;
+}
+
+/* banner */
+.banner {
+    width: 100%;
+    
+    background-image: url(../image/ActiveBox.jpg);
+    background-image: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-conatainer {
+    margin: 0 auto;
+    padding: 254px;
+    text-align: center;
+    position: relative;
+}
+
+.banner-conatainer h1 {
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 68px;
+    font-size: 45px;
+    text-align: center;
+    padding: 0 100px;
+    
+}
+.banner-conatainer p{
+    font-size: 22px;
+    color: #fff;
+    margin-top: 37px;
+    padding: 0 100px;
+}
+.banner-conatainer a{
+    background-color: #e84545;
+    padding: 19px 41px;
+    color: #fff;
+    position: absolute;
+    margin-top: 40px ;
+    transform: translate(-50%);
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  screen and (max-width:989px) {
+
+    .menu-container a {
+    
+    padding: 7px 15px;
+     
+    }
+}
+@media screen and (max-width:845px) {
+    .container {
+        display: none;
+
+    
+}
+     
+    
+}
