@@ -4,6 +4,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 ul li {
@@ -112,12 +114,199 @@ a {
   margin-bottom: 26px;
 }
 .box p {
-    align-items: center;
-    font-family: 'Raleway', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    text-align: center;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
 }
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+
+  column-gap: 1px;
+  row-gap: 1px;
+}
+.gallery-item {
+  max-width: calc(25% - 1px);
+  position: relative;
+}
+.gallery-item img {
+  width: 100%;
+  height: 340px;
+}
+/* founder */
+.team-container {
+  max-width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  padding: 120px 0;
+}
+.team {
+  max-width: calc(25% - 22.2px);
+}
+.team h2 {
+  padding-top: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding-bottom: 10px;
+}
+.team h3 {
+  padding-bottom: 10px;
+  color: #e84545;
+}
+.team p {
+  padding-bottom: 10px;
+}
+.social a {
+  background-color: #fff;
+}
+/* page5-container */
+.page5-container {
+  display: flex;
+  background-color: #53354a;
+  align-items: center;
+  gap: 100px;
+}
+.page5-container-img {
+  width: 50%;
+}
+.page5-container-img img {
+  width: 100%;
+  height: 100%;
+}
+.page5-container-text {
+  width: 30%;
+}
+.page5-container-text h3 {
+  color: #fff;
+  font-style: italic;
+}
+.page5-container-text p {
+  color: #fff;
+  margin-top: 10px;
+}
+.indicator {
+  position: relative;
+  top: 50px;
+  left: 30%;
+  display: flex;
+  column-gap: 8px;
+  text-align: center;
+}
+
+.indicator-item {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: hsl(317, 8%, 50%);
+}
+/* download-container */
+
+.download-section {
+}
+.download-container {
+  margin: 106px 400px;
+  text-align: center;
+}
+.download-container h3 {
+  margin-top: 100px;
+  margin-bottom: 22px;
+  font-family: "Raleway", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+}
+.download-container a {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #e84545;
+  border-radius: 4px;
+  padding: 20px 84px;
+  margin-top: 0px;
+}
+.download-container p {
+  font-family: "Raleway", sans-serif;
+  color: black;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+/* share */
+.share-section {
+  background-color: #3a3e64;
+}
+.share-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 70px;
+  padding-bottom: 102px;
+  text-align: center;
+  margin: 0 200px;
+}
+.about,
+.share,
+.location {
+  width: 30%;
+}
+.bottom a {
+  color: #fff;
+}
+.location h2 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  padding-bottom: 22px;
+}
+.location p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #afb0bc;
+}
+.share h2 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  padding-bottom: 22px;
+}
+.about h2 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  padding-bottom: 22px;
+}
+.about p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #afb0bc;
+}
+/* footer container */
+.footer-container {
+  background-color:  #313454;
+  text-align: center;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  color: #808080;
+  padding-top:20px ;
+  padding-bottom: 20px;
+}
+.footer-container a {
+  font-size: 14px;
+  color: #fff;
+}
+.footer-container .fa-solid{
+  color: #e84545;
+}
+
 /* ==============responsive style ============= */
 
 @media screen and (max-width: 989px) {
